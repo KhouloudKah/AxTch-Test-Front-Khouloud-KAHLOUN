@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TNMt00ZXmA4geeH5neZRKXrNsu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/unins000.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\khouloudkahloun\myapp\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khouloudkahloun\myapp\src\TopicsandInspirationPage" />
+      <recent name="C:\Users\khouloudkahloun\myapp\ApiBack\uploads\product" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src\Store\actions" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src\Store" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khouloudkahloun\myapp\src\Images" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src\TopicsandInspirationPage\TopicsAndInspirationComponent" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src\HomePage\HeaderComponent" />
+      <recent name="C:\Users\khouloudkahloun\myapp\src\HomePage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="" />
+      <created>1573296311783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573296311783</updated>
+      <workItem from="1573296321867" duration="31520000" />
+      <workItem from="1573378714015" duration="48655000" />
+      <workItem from="1573466156178" duration="35886000" />
+      <workItem from="1573553867097" duration="3974000" />
+      <workItem from="1573559041569" duration="23388000" />
+      <workItem from="1573640246950" duration="27985000" />
+      <workItem from="1573723369217" duration="22465000" />
+      <workItem from="1573812249364" duration="38342000" />
+      <workItem from="1573900371272" duration="8497000" />
+      <workItem from="1573912342627" duration="1935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

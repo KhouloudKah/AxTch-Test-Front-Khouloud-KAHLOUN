@@ -1,0 +1,52 @@
+
+.card-title{
+  margin-right: 60vmin;
+  margin-top: 5vmin;
+  font-size: 4vmin;
+}
+.btn1{
+  margin-top: 10vmin;
+}
+
+#card1{
+  width: 90vmin;
+  height: 70vmin;
+  background-color: #F0F0F0!important;
+}
+#card2{
+  width: 90vmin;
+  height: 70vmin;
+  background-color: #c0dae9!important;
+}
+#outdoors{color: black;
+  font-family: var(--ABeeZee);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+#indoors{color: black;
+  font-family: var(--ABeeZee);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+#shop_outdoors{
+  text-decoration: underline;
+  font-family: var(--ABeeZee);
+  font-weight: bold;
+  background-color: #F0F0F0;
+  border-color: #F0F0F0;
+}
+#shop_indoors{
+  text-decoration: underline;
+  font-family: var(--ABeeZee);
+  font-weight: bold;
+  background-color: #c0dae9;
+  border-color: #c0dae9;
+}
+
+#shop{
+  font-weight: bold;
+  color: gray;
+  text-align: left;
+}
