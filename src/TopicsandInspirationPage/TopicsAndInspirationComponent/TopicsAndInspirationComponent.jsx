@@ -25,7 +25,7 @@ class TopicsAndInspirationComponent extends Component {
 
         return (
 
-    <div>
+    <div className="div1">
 
                 <div className="row px-2 py-5 justify-content-between">
 

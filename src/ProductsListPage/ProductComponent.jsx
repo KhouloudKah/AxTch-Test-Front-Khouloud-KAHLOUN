@@ -16,6 +16,7 @@ class ProductComponent extends Component {
 
 
     render() {
+        console.log(this.props.picture)
 
         return (
 
@@ -32,7 +33,7 @@ class ProductComponent extends Component {
                 <Modal.Body>
                     <div className="row no-gutters">
                         <div className="col-px-5">
-                            <Image  src={"http://localhost:3000"+this.props.picture}/>
+                            <Image  src={this.props.picture}/>
                         </div>
                         <div className="col-px-7">
                             <div className=" px-3">

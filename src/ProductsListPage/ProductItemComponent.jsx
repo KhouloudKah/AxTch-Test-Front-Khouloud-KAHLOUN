@@ -30,7 +30,7 @@ class ProductItemComponent extends Component {
                 <div className="col-lg-3 col-12 p-5" >
                     <Card onClick={() => this.open(true)} >
                         <CardBody>
-                            <CardImg src={"http://localhost:3000"+this.props.picture}  alt="Card image" />
+                            <CardImg src={this.props.picture}  alt="Card image" />
                             <CardText className={"text-left d-inline-block"}>{this.props.title} </CardText>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p className={"d-inline-block"} id={"name"}>{this.props.name}</p>

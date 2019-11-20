@@ -15,7 +15,7 @@ var ProductSchema = new Schema({
   category: {
     type: String
   },
-  y: {
+  img: {
     type: String
   }
 });

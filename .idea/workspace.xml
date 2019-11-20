@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="" />
+    <list default="true" id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myappBack/data/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myappBack/uploads/product/pic3_4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/api/controllers/ProductController.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/api/controllers/ProductController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/api/models/ProductModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/api/models/ProductModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/api/routes/ProductRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/api/routes/ProductRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic10.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic11.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic12.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic13.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic14.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic15.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic9.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductItemComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductItemComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +47,9 @@
   <component name="ProjectId" id="1TNMt00ZXmA4geeH5neZRKXrNsu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/unins000.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,11 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khouloudkahloun\myapp" />
+      <recent name="C:\Users\khouloudkahloun\myapp\myappBack" />
       <recent name="C:\Users\khouloudkahloun\myapp\src\TopicsandInspirationPage" />
       <recent name="C:\Users\khouloudkahloun\myapp\ApiBack\uploads\product" />
       <recent name="C:\Users\khouloudkahloun\myapp\src\Store\actions" />
-      <recent name="C:\Users\khouloudkahloun\myapp\src" />
-      <recent name="C:\Users\khouloudkahloun\myapp\src\Store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\khouloudkahloun\myapp\src\Images" />
@@ -80,7 +106,10 @@
       <workItem from="1573723369217" duration="22465000" />
       <workItem from="1573812249364" duration="38342000" />
       <workItem from="1573900371272" duration="8497000" />
-      <workItem from="1573912342627" duration="1935000" />
+      <workItem from="1573912342627" duration="4136000" />
+      <workItem from="1574264305460" duration="918000" />
+      <workItem from="1574265498955" duration="1857000" />
+      <workItem from="1574267506437" duration="12055000" />
     </task>
     <servers />
   </component>
