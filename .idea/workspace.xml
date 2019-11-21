@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myappBack/data/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myappBack/uploads/product/pic3_4.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/api/controllers/ProductController.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/api/controllers/ProductController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/api/models/ProductModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/api/models/ProductModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/api/routes/ProductRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/api/routes/ProductRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic10.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic11.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic12.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic13.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic14.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic15.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/uploads/product/pic9.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/CollectionComponent/CollectionComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/CollectionComponent/CollectionComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/HeaderComponent/HeadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HeaderComponent/HeadComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/NewsletterComponent/NewsletterComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/NewsletterComponent/NewsletterComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/OutdoorsIndoorsComponent/OutdoorsIndoorsComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/OutdoorsIndoorsComponent/OutdoorsIndoorsComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/OutdoorsIndoorsComponent/OutdoorsIndoorsComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/OutdoorsIndoorsComponent/OutdoorsIndoorsComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/PopularProductsComponent/PopularProductsComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/PopularProductsComponent/PopularProductsComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/PopularProductsComponent/PopularProductsComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/PopularProductsComponent/PopularProductsComponent.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductItemComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductItemComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListByCategoryComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListByCategoryComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.scss" afterDir="false" />
     </list>
@@ -109,7 +102,7 @@
       <workItem from="1573912342627" duration="4136000" />
       <workItem from="1574264305460" duration="918000" />
       <workItem from="1574265498955" duration="1857000" />
-      <workItem from="1574267506437" duration="12055000" />
+      <workItem from="1574267506437" duration="50399000" />
     </task>
     <servers />
   </component>

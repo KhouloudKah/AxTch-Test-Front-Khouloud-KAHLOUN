@@ -31,6 +31,7 @@ class ProductsListComponent extends Component {
     render() {
 
         return (
+            <div className="container" id={"div11"}>
 
             <div className="div1">
                 <div className="row px-2 py-5 justify-content-between">
@@ -112,6 +113,7 @@ class ProductsListComponent extends Component {
                     </div>
                 </div>
                 <br/>
+            </div>
             </div>
 
 

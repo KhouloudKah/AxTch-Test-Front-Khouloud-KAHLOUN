@@ -9,106 +9,93 @@ import {
     Card,
     CardSubtitle, CardBody , CardText, CardImg
 } from 'reactstrap';
+import Container from "react-bootstrap/Container";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 class CollectionComponent extends Component {
 
     render() {
 
         return (
-            <div className="row p-2">
-                <div className="col-lg-4 col-12 px-5 py-4" id={"div1"}>
-                    <ul className="known px-4 text-left ">
-                        <h1 className="d-inline-block mr-3">Collections</h1>
-                        <h5 className="d-inline-block mr-5"
-                            id={"shop"}>SHOP</h5>
-
-                    </ul>
-                </div>
-                <div className="col-lg-4 col-12" id={"div2"}>
-
-                <div className="col-lg-4 col-12 px-5 py-4">
-                    <ul>
+            <Container>
+                <Row  className="row p-3">
+                    <Col sm={8} id={"div1"}>
+                        <ul className="known text-left">
+                            <h1 className="d-inline-block mr-3">Collections</h1>
+                            <h5 className="d-inline-block mr-5" id={"shop"}>SHOP</h5>
+                        </ul>
+                    </Col>
+                    <Col  sm={4}>
                         <h5 className="d-inline-block mr-5">Previous</h5>
                         <div className="vl d-inline-block mr-5 "></div>
                         <h5 className="d-inline-block mr-5">Next</h5>
+                    </Col>
+                </Row>
 
-                    </ul>
-                </div>
-            </div>
-                <div className="row px-5">
-                    <div className="col-lg-3 col-12 ">
-                        <Card>
-                            <CardBody>
-                                <CardText className={"text-left d-inline-block"}>Some quick example text
-                                    to build on the card title and make up the bulk of the card's content.</CardText>
+                {/* first card */}
+
+                <Row  className="row p-3">
+                    <Col md={3}>
+
+                                <p className={"text-left d-inline-block"}>Some quick example text
+                                    to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#/" className="btn btn-white text-left" id={"btn_see"}>See all collections</a>
-                            </CardBody>
+                    </Col>
+                    <Col md={6}>
+                        <CardImg src={pic1}/>
+                    </Col>
 
-                        </Card>
-                    </div>
-                    <div className="col-lg-8 col-12 m-2">
 
-                        <Card>
-                            <div className="row ">
-                                <div className="col-lg-6">
-                                    <CardImg src={pic1} alt="..."/>
-                                </div>
-                                    <CardBody>
-                                        <CardSubtitle id={"collection"}> COLLECTION</CardSubtitle >
-                                        <CardText  id={"HangLamp"}> Hang Lamp </CardText>
-                                    </CardBody>
-                            </div>
-                        </Card>
-                    </div>
-                </div>
-                <div className="row p-5">
-                    <div className="col-lg-12 col-12 m-5">
-                        <Card>
-                            <div className="row ">
-                                <div className="col-md-3 col-12">
-                                    <CardImg src={pic3_2}/>
-                                </div>
-                                <div className="col-md-3 col-12">
-                                    <CardBody>
-                                        <CardSubtitle id={"collection"}> COLLECTION</CardSubtitle >
-                                        <CardText  id={"HangLamp"}> Wood MUG </CardText>
-                                    </CardBody>
-                                </div>
-                                <div className="col-md-3 col-12 align-self-end">
-                                    <CardImg src={pic3_3}/>
-                                </div>
-                                <div className="col-md-3 col-12 align-self-end">
-                                    <CardBody>
-                                        <CardSubtitle id={"collection"}> COLLECTION</CardSubtitle >
-                                        <CardText  id={"HangLamp"}> Wood Buttle </CardText>
-                                    </CardBody>
-                                </div>
+                        <Col md={3} className="  align-self-center" >
+                        <h5 id={"collection"}> COLLECTION</h5 >
+                        <p  id={"HangLamp"}> Hang Lamp </p>
+                    </Col>
 
-                            </div>
-                        </Card>
-                    </div>
-                </div>
-                <div className="row p-5">
+                </Row>
 
-                    <div className="col-lg-12 col-12 px-5 py-4">
+                {/* second card */}
 
-                        <Card>
-                            <div className="row px-1 py-1 ">
-                                <div className="col-lg-9">
+                <Row className="p-5 ">
+                    <Col >
+                            <Row>
+                                <Col>
+                                    <img src={pic3_2}/>
+                                </Col>
+                                <Col >
+                                        <h5 id={"collection"}> COLLECTION</h5 >
+                                        <p  id={"HangLamp"}> Wood MUG </p>
+                                </Col>
+                                {/* third card */}
+
+                                <Col className=" align-self-end">
+                                    <img src={pic3_3}/>
+                                </Col>
+                                <Col className=" align-self-end">
+
+                                        <h5 id={"collection"}> COLLECTION</h5 >
+                                        <p  id={"HangLamp"}> Wood Buttle </p>
+                                </Col>
+
+                            </Row>
+                    </Col>
+                </Row>
+                <Row className="p-5 justify-content-start">
+
+                    <Col className="col-4">
                                     <CardImg src={pic3_4} alt="..."/>
-                                </div>
-                                <div className="col-lg-3 align-self-center">
-                                    <CardBody>
-                                        <CardSubtitle id={"collection"}> COLLECTION</CardSubtitle >
-                                        <CardText  id={"HangLamp"}> Wall clock </CardText>
-                                    </CardBody>
-                                </div>
+                    </Col>
+                    <Col className="col-4  align-self-center">
 
-                            </div>
-                        </Card>
-                    </div>
-                </div>
+                                        <h5 id={"collection"}> COLLECTION</h5 >
+                                        <p  id={"HangLamp"}> Wall clock </p>
 
-            </div>
+                    </Col>
+                </Row>
+
+            </Container>
+
 
         );
     }

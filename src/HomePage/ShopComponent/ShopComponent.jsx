@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './ShopComponent.scss';
 import Container from 'react-bootstrap/Container';
-import chair from '../../Images/chair.png';
-import pic2 from '../../Images/pic2.PNG';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import chair from '../../Images/chair.png';
+import clothing from '../../Images/clothing.png';
+import sport from '../../Images/sport.png';
+import acc from '../../Images/acc.png';
 
-import pic3_2 from '../../Images/pic3.2.PNG';
-import pic3_3 from '../../Images/pic3_3.PNG';
 import 'react-animated-slider/build/horizontal.css';
 
 
@@ -34,7 +34,7 @@ class ShopComponent extends Component {
     }
     changePic1 = () => {
         this.setState({
-            img: pic2 ,
+            img: acc ,
             idOfBalisea0 : "link" ,
             idOfBalisea1 : "nav-link-active" ,
             idOfBalisea2 : "link" ,
@@ -43,7 +43,7 @@ class ShopComponent extends Component {
     }
     changePic2 = () => {
         this.setState({
-            img: pic3_2,
+            img: sport,
             idOfBalisea0 : "link" ,
             idOfBalisea1 : "link" ,
             idOfBalisea2 : "nav-link-active" ,
@@ -52,7 +52,7 @@ class ShopComponent extends Component {
     }
     changePic3 = () => {
         this.setState({
-            img: pic3_3,
+            img: clothing,
             idOfBalisea0 : "link" ,
             idOfBalisea1 : "link" ,
             idOfBalisea2 : "link" ,

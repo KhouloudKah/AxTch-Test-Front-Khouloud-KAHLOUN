@@ -9,55 +9,53 @@ import picHome from "../../Images/picHome.PNG";
 import picbox from "../../Images/picbox.PNG";
 import picVideo from  "../../Images/pic16.PNG";
 import NewsletterComponent from "../../HomePage/NewsletterComponent/NewsletterComponent";
-
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/Col';
 
 class TopicsAndInspirationComponent extends Component {
 
     constructor(props) {
         super(props)
-
         this.state = {
-
         }
     }
 
     render() {
 
         return (
+            <div className="container" id={"div11"}>
 
-    <div className="div1">
+                <Row className="  py-4 ">
 
-                <div className="row px-2 py-5 justify-content-between">
-
-                    <div className="col-4" id="divStyle">
+                    <Col className="col-4" id="divStyle">
                         <div className="d-inline-block mr-5">
                             <MenuComponent/>
                         </div>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
 
-            <div className="row px-5 py-2 justify-content-between">
-                        <div className="col-4">
+            <Row className="  py-2 ">
+                        <Col className="col-md-4 mr-auto">
                             <div id="Topics">
                                 Topics & Inspirations
                             </div>
-                        </div>
-
-
-                        <div className="col-4 " >
+                        </Col>
+                        <Col className="col-md-4 offset-md-4">
                                 <div className="d-inline-block  mr-3"><FontAwesomeIcon icon={faTwitter} /></div>
                                 <div className="d-inline-block mr-3"><FontAwesomeIcon icon={faLinkedin} /></div>
                                 <div className="d-inline-block mr-3 "><FontAwesomeIcon icon={faFacebook} /></div>
-            </div>
-
-            </div>
+            </Col>
+            </Row>
         <br/>
         <br/>
 
         {/* Home styling */}
-        <div className="row px-5 py-5 justify-content-around">
-            <div className="col-4" >
-                <div >
+        <Container>
+        <Row className=" px-5 py-5  justify-content-center">
+
+
+            <Col className="col" >
                     <div className={"text-left"}  id = "divStyle" >
                         3.1
                     </div>
@@ -68,7 +66,6 @@ class TopicsAndInspirationComponent extends Component {
                         home styling
                     </div>
                     <br/>
-
                     <br/>
                     <p  className={"text-left d-inline-block"} >bacom ipsom dolari amet meat, tri-tip turdiken chuck t-bone, mustard .
                     Dolari amet meat, tri-tip burgdogen , chuck t-bone mustard
@@ -77,27 +74,23 @@ class TopicsAndInspirationComponent extends Component {
                     <button type="submit" className="btn btn-white text-left" id = "btn_white" >Find out more
                     </button>
                     </div>
-
-
-                </div>
-            </div>
-            <div className="col-4 " >
+            </Col>
+            <Col className="col">
                 <Image  src={picHome}/>
+            </Col>
 
-            </div>
+        </Row>
+        </Container>
 
-        </div>
-        {/* 2017 catalogue */}
-        <div className="row px-5 py-5 justify-content-between">
+            {/* 2017 catalogue */}
+                <Container>
+        <Row className=" px-5 py-5  justify-content-center" >
 
+            <Col className="col" >
+                <img  src={picCatalogue}/>
 
-
-            <div className="col-md-3 offset-md-3" >
-                <Image  src={picCatalogue}/>
-
-            </div>
-            <div className="col-md-3 offset-md-3" >
-                <div >
+            </Col>
+            <Col className="col" >
                     <div className={"text-left"}  id = "divStyle" >
                         3.2
                     </div>
@@ -108,7 +101,6 @@ class TopicsAndInspirationComponent extends Component {
                         2017 Catalogue
                     </div>
                     <br/>
-
                     <br/>
                     <p  className={"text-left d-inline-block"} >bacom ipsom dolari amet meat, tri-tip turdiken chuck t-bone, mustard .
                         Dolari amet meat, tri-tip burgdogen , chuck t-bone mustard
@@ -117,15 +109,13 @@ class TopicsAndInspirationComponent extends Component {
                         <button type="submit" className="btn btn-white text-left" id = "btn_white" >Explore Topics
                         </button>
                     </div>
-
-
-                </div>
-            </div>
-        </div>
-        <div className="row px-1 py-5 ">
-            <div className="col-md-3 offset-md-3
-" >
-                <div >
+            </Col>
+        </Row>
+                </Container>
+                {/*   No-Box Packaging*/}
+                <Container>
+                <Row className=" px-1 py-5 ">
+            <Col md={{ span: 3, offset: 3 }} >
                     <div className={"text-left"}  id = "divStyle" >
                         3.3
                     </div>
@@ -147,29 +137,34 @@ class TopicsAndInspirationComponent extends Component {
                     </div>
 
 
-                </div>
-            </div>
-            <div className="col-md-3 offset-md-3 " >
-                <Image  src={picbox}/>
+            </Col>
+            <Col md={{ span: 3, offset: 3 }}>
+                <img  src={picbox}/>
 
-            </div>
+            </Col>
 
-        </div>
+        </Row>
+                </Container>
+                <Row className="   ">
+                    <Col className="col-md-4 mr-auto">
+                        <ul className="known text-left ">
+                            <h1 className="d-inline-block mr-3">Our services</h1>
+                            <h5 className="d-inline-block mr-5" id={"shop"}>BLOG</h5>
 
-        <div className="col-lg-4 col-12 px-5 py-4" id={"div1"}>
-            <ul className="known px-4 text-left ">
-                <h1 className="d-inline-block mr-3">Our services</h1>
-                <h5 className="d-inline-block mr-5" id={"shop"}>BLOG</h5>
+                        </ul>
+                    </Col>
+                    <Col className="col-md-4 offset-md-4">
 
-            </ul>
-        </div>
+                    </Col>
+                </Row>
 
-        <div className="row justify-content-around">
-            <div className="col-4">
-                <Image  src={picVideo}/>
-            </div>
-            <div className="col-4">
-                <div >
+
+
+        <Row>
+            <Col className="col-md-6">
+                <img  src={picVideo}/>
+            </Col>
+            <Col className="col-md-4 col-md-offset-2">
                     <div className={"text-left"}  id = "divStyle" >
                         3.4
                     </div>
@@ -188,37 +183,38 @@ class TopicsAndInspirationComponent extends Component {
                     <div className={"text-left"}  id = "divStyle1" >
                         <button type="submit" className="btn btn-white text-left" id = "btn_white" >Read About Us
                         </button>
-                    </div>
-
-
-                </div>            </div>
-        </div>
+                </div>
+            </Col>
+        </Row>
+                <Row className="p-5">
         <NewsletterComponent/>
-        <div className="row">
-            <div className="col">
+                </Row>
+
+                {/* footer*/}
+        <Row  className="p-5">
+            <Col>
                 Copyright Minim Website 2016
-            </div>
-            <div className="col-6">
+            </Col>
+            <Col className="col-6">
                 FIRST  &nbsp; &nbsp;&nbsp;SECOND&nbsp; &nbsp;&nbsp;THIRD&nbsp;&nbsp;&nbsp; FOURTH&nbsp; &nbsp;&nbsp;FIFTH&nbsp;&nbsp;&nbsp; SIXTH
 
-            </div>
-            <div className="col">
+            </Col>
+            <Col className="col">
                     <div>
                         <div className="d-inline-block mr-3 "><FontAwesomeIcon icon={faTwitter} /></div>
                         <div className="d-inline-block mr-3"><FontAwesomeIcon icon={faLinkedin} /></div>
                         <div className="d-inline-block mr-3"><FontAwesomeIcon icon={faFacebook} /></div>
                     </div>
-                </div>            </div>
+            </Col>
+        </Row>
         <br/>
 
-    </div>
 
 
 
 
 
-
-
+            </div>
         );
     }
 }

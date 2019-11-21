@@ -5,6 +5,10 @@ import {
     Card,
     CardSubtitle, CardBody
 } from 'reactstrap';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/Col';
+
 class NewsletterComponent extends Component {
     constructor(props){
         super(props);
@@ -13,24 +17,19 @@ class NewsletterComponent extends Component {
     }
     render() {
         return (
-            <Form className="px-5 py-2">
-                <div className="row">
-                    <div className="col-1 ">
-                    </div>
-                    <div className="col-3 m-xl-5">
-                        <Card className="border border-white" >
-                            <CardBody >
-                                <CardSubtitle >
+            <Container>
+                <Row  className="px-5 py-2 justify-content-md-center">
+
+                    <Col >
                                 <h5 className="py-3 text-left" id={"newsletter"}>Newsletter</h5>
-                                </CardSubtitle>
+
                                     <p className={"d-inline-block text-left"}>
                                         Register now with our newsletter and get the latest updates available.
                                    </p>
 
-                            </CardBody>
-                        </Card>
-                    </div>
-                    <div className="col-3 m-xl-5 px-5">
+                    </Col>
+                    <Col className="col-6">
+                        <Form>
 
                         <Form.Group className="py-3">
                             <Form.Control  type="text" className=" px-3 py-3 " placeholder="Name" id={"newsletter"}/>
@@ -38,15 +37,17 @@ class NewsletterComponent extends Component {
                         <Form.Group >
                             <Form.Control type="email" className=" px-3 py-3" id={"newsletter"} aria-describedby="emailHelp" placeholder="Email"/>
                         </Form.Group>
-                    </div>
-                    <div className="col-1 m-xl-5 py-4 dx-text-content-alignment-right align-self-end">
+                        </Form>
+
+                    </Col>
+                    <Col className="py-4 dx-text-content-alignment-right align-self-end">
                         <br/>
                         <a href="#/" className="btn btn-dark"> Send</a>
 
-                    </div>
-                </div>
+                    </Col>
 
-            </Form>
+            </Row>
+            </Container>
 
 
         );
