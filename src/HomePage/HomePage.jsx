@@ -35,9 +35,9 @@ class HomePage extends Component {
 
   render() {
     return (
-        <div className="container" id={"div11"}>
+        <Container id={"pageHome"}>
 
-            <Row className="row p-3">
+            <Row className="row p-5">
                 <Col className="col-12">
                     <HeadComponent />
 
@@ -98,7 +98,7 @@ class HomePage extends Component {
 
                 </Row>
 
-        </div>
+        </Container>
 
   );
   }

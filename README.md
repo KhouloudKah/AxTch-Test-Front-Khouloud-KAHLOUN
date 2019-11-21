@@ -4,7 +4,7 @@
 
 Le présent projet est un projet élaboré par Khouloud KAHLOUN dans le cadre d'un test technique FRONT demandé par l'entreprise DEVOTEAM AXANCE 
 
-La video "Démo_Test_Front_KhouloudKAHLOUN.avi" contient une démonstration du projet et des fonctionnalités dévéloppées.
+La video "Démo_test_front_Khouloud.avi" contient une démonstration du projet et des fonctionnalités dévéloppées.
 
 ## Projet
 
@@ -35,13 +35,18 @@ Les étapes pour build le projet :
 1. Télécharger le projet ou vous avez déja reçu fichier Test_Front_KAHLOUN_Khouloud.zip par mail <br />
 2. Ouvrir la plateforme WebStorm (moi j'ai développer le projet sous l'IDE WebStorm)
 3. Supposant que vous avez installé l'environement node.JS si c'est pas le cas , vous pouvez l'installer à partir [https://nodejs.org/en/]
-4. Lancer la commande  `npm install`
+4. Entrer dans le dossier ApiBack du projet et Lancer la commande  `npm install`
+pour Ne pas installer la base de donnée mongoDB , j'ai mis les données dans un fichier Data/products.json
 5. Installer mongoDB 
  une base de donnée vide nommée "product" sera créer automatiquement si ce n'est pas le cas suivez ces étapes : 
 5.1 Créer une base de données nommée "product"
 5.2 Dans cette base de données, créer une collection nommée "products" 
 5.3 Importer le fichier "products.json' contenant la liste des produits 
-6. Entrer dans le dossier du projet 
+
+####Remarque
+Si vous ne voulez pas installer la base de donnée mongoDB , j'ai mis les données dans un fichier `Data/products.json`
+
+
 ### Back End  
 7. Installer Postman pour intéragir avec l'API REST 
 8. Entrer dans le dossier ApiBack du projet et lancer la commande  `nodemon server.js`<br />

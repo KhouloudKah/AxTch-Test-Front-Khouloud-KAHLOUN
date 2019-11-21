@@ -43,12 +43,10 @@ export const getProductsByCategory = (value) => dispatch => {
 	axios
 		.get(`http://localhost:3000/product/search/${value}`)
 		.then(response => {
-			console.log(response);
 
 			return { response: response, error: null };
 		})
 		.catch(err => {
-			console.log(err);
 
 			return { response: null, error: err };
 		})

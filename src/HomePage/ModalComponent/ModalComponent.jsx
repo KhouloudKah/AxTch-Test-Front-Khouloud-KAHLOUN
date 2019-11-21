@@ -5,7 +5,6 @@ import NeedHelp from '../../Images/NeedHelp.png';
 import Modal from "react-responsive-modal";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from 'react-bootstrap/Col';
 
 class ModalComponent extends Component {
 
@@ -47,7 +46,7 @@ class ModalComponent extends Component {
 
                                     <div className="d-inline-block">
                                         <button type="submit" className="btn btn-dark d-inline-block">Start Live chat</button>
-                                        <a  className=" d-inline-block" id = "btn_white" >Request for call back</a>
+                                        <a href="#/" className=" d-inline-block" id = "btn_white" >Request for call back</a>
                                     </div>
 
                                 </div>

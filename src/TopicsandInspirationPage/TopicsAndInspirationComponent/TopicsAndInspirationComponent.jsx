@@ -35,7 +35,7 @@ class TopicsAndInspirationComponent extends Component {
                     </Col>
                 </Row>
 
-            <Row className="  py-2 ">
+            <Row >
                         <Col className="col-md-4 mr-auto">
                             <div id="Topics">
                                 Topics & Inspirations
@@ -76,7 +76,7 @@ class TopicsAndInspirationComponent extends Component {
                     </div>
             </Col>
             <Col className="col">
-                <Image  src={picHome}/>
+                <Image  src={picHome} alt={"..."}/>
             </Col>
 
         </Row>
@@ -87,7 +87,7 @@ class TopicsAndInspirationComponent extends Component {
         <Row className=" px-5 py-5  justify-content-center" >
 
             <Col className="col" >
-                <img  src={picCatalogue}/>
+                <img  src={picCatalogue} alt={"..."}/>
 
             </Col>
             <Col className="col" >
@@ -139,7 +139,7 @@ class TopicsAndInspirationComponent extends Component {
 
             </Col>
             <Col md={{ span: 3, offset: 3 }}>
-                <img  src={picbox}/>
+                <img  src={picbox} alt={"..."}/>
 
             </Col>
 
@@ -162,7 +162,7 @@ class TopicsAndInspirationComponent extends Component {
 
         <Row>
             <Col className="col-md-6">
-                <img  src={picVideo}/>
+                <img  src={picVideo} alt="..."/>
             </Col>
             <Col className="col-md-4 col-md-offset-2">
                     <div className={"text-left"}  id = "divStyle" >

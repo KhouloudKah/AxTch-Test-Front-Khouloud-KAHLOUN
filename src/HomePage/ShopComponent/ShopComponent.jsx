@@ -77,19 +77,19 @@ class ShopComponent extends Component {
 
                                         <ul className="nav flex-column align-items-start">
                                             <li className="nav-item " >
-                                                <a  id={this.state.idOfBalisea0} className="btn btn-black" onClick={() => this.changePic(true)}
+                                                <a href="#/"  id={this.state.idOfBalisea0} className="btn btn-black" onClick={() => this.changePic(true)}
                                                 >Home Furnishings</a>
                                             </li>
                                             <li className="nav-item " id={"nav-link"}>
-                                                <a  id={this.state.idOfBalisea1} className="btn btn-black"  onClick={() => this.changePic1(true)}
+                                                <a href="#/" id={this.state.idOfBalisea1} className="btn btn-black"  onClick={() => this.changePic1(true)}
                                                 >Accessories</a>
                                             </li>
                                             <li className="nav-item " id={"nav-link"}>
-                                                <a id={this.state.idOfBalisea2} className="btn btn-black" onClick={() => this.changePic2(true)}
+                                                <a  href="#/" id={this.state.idOfBalisea2} className="btn btn-black" onClick={() => this.changePic2(true)}
                                                 >Sport</a>
                                             </li>
                                             <li className="nav-item" id={"nav-link"}>
-                                                <a  id={this.state.idOfBalisea3} className="btn btn-black"  onClick={() => this.changePic3(true)}
+                                                <a href="#/" id={this.state.idOfBalisea3} className="btn btn-black"  onClick={() => this.changePic3(true)}
                                                 >Clothing wear</a>
 
                                             </li>
@@ -103,7 +103,7 @@ class ShopComponent extends Component {
                                         <h1 id={"white_clock"}>White Clock</h1>
                                         <div className="d-flex align-items-end flex-column">
                                             <div className="mt-auto p-5">
-                                                <a id={"btn_shop"} href="#/" className="btn  btn-large px-5">Shop Now</a>
+                                                <a  id={"btn_shop"} href="#/" className="btn  btn-large px-5">Shop Now</a>
                                             </div>
                                         </div>
                                     </Col>

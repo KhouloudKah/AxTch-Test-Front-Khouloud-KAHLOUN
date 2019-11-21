@@ -4,10 +4,10 @@ import pic1 from '../../Images/3_1.png';
 import pic3_2 from '../../Images/pic3.2.PNG';
 import pic3_3 from '../../Images/pic3_3.PNG';
 import pic3_4 from '../../Images/pic3_4.PNG';
+import Image from 'react-bootstrap/Image'
 
 import {
-    Card,
-    CardSubtitle, CardBody , CardText, CardImg
+    CardImg
 } from 'reactstrap';
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
@@ -44,7 +44,7 @@ class CollectionComponent extends Component {
                                 <a href="#/" className="btn btn-white text-left" id={"btn_see"}>See all collections</a>
                     </Col>
                     <Col md={6}>
-                        <CardImg src={pic1}/>
+                        <CardImg src={pic1} alt="..."/>
                     </Col>
 
 
@@ -58,10 +58,8 @@ class CollectionComponent extends Component {
                 {/* second card */}
 
                 <Row className="p-5 ">
-                    <Col >
-                            <Row>
                                 <Col>
-                                    <img src={pic3_2}/>
+                                    <img src={pic3_2} alt="..."/>
                                 </Col>
                                 <Col >
                                         <h5 id={"collection"}> COLLECTION</h5 >
@@ -69,8 +67,8 @@ class CollectionComponent extends Component {
                                 </Col>
                                 {/* third card */}
 
-                                <Col className=" align-self-end">
-                                    <img src={pic3_3}/>
+                                <Col className=" ">
+                                    <img src={pic3_3} alt="..."/>
                                 </Col>
                                 <Col className=" align-self-end">
 
@@ -78,18 +76,16 @@ class CollectionComponent extends Component {
                                         <p  id={"HangLamp"}> Wood Buttle </p>
                                 </Col>
 
-                            </Row>
-                    </Col>
                 </Row>
-                <Row className="p-5 justify-content-start">
+                <Row >
 
-                    <Col className="col-4">
-                                    <CardImg src={pic3_4} alt="..."/>
+                    <Col>
+                                    <Image src={pic3_4} alt="..."/>
                     </Col>
-                    <Col className="col-4  align-self-center">
+                    <Col className="align-self-center">
 
-                                        <h5 id={"collection"}> COLLECTION</h5 >
-                                        <p  id={"HangLamp"}> Wall clock </p>
+                                        <h5 className=" text-left" id={"collection"}> COLLECTION</h5 >
+                                        <p className=" text-left" id={"HangLamp"}> Wall clock </p>
 
                     </Col>
                 </Row>

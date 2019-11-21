@@ -79,7 +79,6 @@ Product list
 
             </div>
 
-
         );
     }
 }

@@ -29,11 +29,11 @@ class OutdoorsIndoorsComponent extends Component {
                                     <h3 id={"outdoors"}>Outdoors</h3>
                                         <p id={"shop"}>shop</p>
                                 </div>
-                                    <Image  src={ball}  id={"ball"} fluid />
+                                    <Image  src={ball} alt="..."  id={"ball"} fluid />
                                     <div className="mb-2 text-muted">
                                         <div className="d-flex align-items-end flex-column py-0">
                                             <div className="mt-auto p-2">
-                                                <a className="btn btn-light" id={"shop_outdoors"}>Shop Outdoors</a>
+                                                <a  href="#/"  className="btn btn-light" id={"shop_outdoors"}>Shop Outdoors</a>
 
                                             </div>
                                         </div>
@@ -52,13 +52,13 @@ class OutdoorsIndoorsComponent extends Component {
                                         <p id={"shop"}>shop</p>
                                 </div>
 
-                                    <Image  src={board} id={"board"} fluid />
+                                    <Image  src={board} id={"board"} alt="..." fluid />
 
                                     <div className="mb-2 text-muted">
 
                                         <div className="d-flex align-items-end flex-column py-0">
                                             <div className="mt-auto p-2">
-                                                <a className="btn btn-light" id={"shop_indoors"}>Shop Indoors</a>
+                                                <a  href="#/"  className="btn btn-light" id={"shop_indoors"}>Shop Indoors</a>
 
                                             </div>
                                         </div>
