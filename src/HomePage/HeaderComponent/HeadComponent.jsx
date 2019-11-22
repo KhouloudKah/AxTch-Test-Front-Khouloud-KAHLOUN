@@ -16,7 +16,7 @@ class HeadComponent extends Component {
     return (
         <Container>
 
-        <Row px={2} py={5}>
+        <Row >
             <Col className="col-3" id="divStyle">
                 <div className="d-inline-block mr-5">
                     <MenuComponent/>

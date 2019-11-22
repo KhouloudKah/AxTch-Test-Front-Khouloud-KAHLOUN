@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/HeaderComponent/HeadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HeaderComponent/HeadComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListByCategoryComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListByCategoryComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +90,7 @@
       <workItem from="1573912342627" duration="4136000" />
       <workItem from="1574264305460" duration="918000" />
       <workItem from="1574265498955" duration="1857000" />
-      <workItem from="1574267506437" duration="63581000" />
+      <workItem from="1574267506437" duration="65349000" />
     </task>
     <servers />
   </component>
