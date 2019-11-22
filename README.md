@@ -35,7 +35,7 @@ Les étapes pour build le projet :
 1. Télécharger le projet ou vous avez déja reçu fichier Test_Front_KAHLOUN_Khouloud.zip par mail <br />
 2. Ouvrir la plateforme WebStorm (moi j'ai développer le projet sous l'IDE WebStorm)
 3. Supposant que vous avez installé l'environement node.JS si c'est pas le cas , vous pouvez l'installer à partir [https://nodejs.org/en/]
-4. Entrer dans le dossier ApiBack du projet et Lancer la commande  `npm install`
+4. Entrer dans le dossier du projet et Lancer la commande  `npm install`
 pour Ne pas installer la base de donnée mongoDB , j'ai mis les données dans un fichier Data/products.json
 5. Installer mongoDB 
  une base de donnée vide nommée "product" sera créer automatiquement si ce n'est pas le cas suivez ces étapes : 
@@ -43,7 +43,7 @@ pour Ne pas installer la base de donnée mongoDB , j'ai mis les données dans un
 5.2 Dans cette base de données, créer une collection nommée "products" 
 5.3 Importer le fichier "products.json' contenant la liste des produits 
 
-####Remarque
+### Remarque
 Si vous ne voulez pas installer la base de donnée mongoDB , j'ai mis les données dans un fichier `Data/products.json`
 
 

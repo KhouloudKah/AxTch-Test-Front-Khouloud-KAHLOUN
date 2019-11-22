@@ -4,24 +4,6 @@
     <list default="true" id="5f57da1c-ba52-40ea-9d47-51e777f26998" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myappBack/data/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/myappBack/data/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/CollectionComponent/CollectionComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/CollectionComponent/CollectionComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/CollectionComponent/CollectionComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/CollectionComponent/CollectionComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/HeaderComponent/MenuComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HeaderComponent/MenuComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ModalComponent/ModalComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/NewsletterComponent/NewsletterComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/NewsletterComponent/NewsletterComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/OutdoorsIndoorsComponent/OutdoorsIndoorsComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/OutdoorsIndoorsComponent/OutdoorsIndoorsComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/ShopComponent/ShopComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductItemComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductItemComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsListPage/ProductsListComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/actions/ProductsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/actions/ProductsAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/NewsletterComponent/NewsletterComponent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/NewsletterComponent/NewsletterComponent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopicsandInspirationPage/TopicsAndInspirationComponent/TopicsAndInspirationComponent.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +87,7 @@
       <workItem from="1573912342627" duration="4136000" />
       <workItem from="1574264305460" duration="918000" />
       <workItem from="1574265498955" duration="1857000" />
-      <workItem from="1574267506437" duration="62560000" />
+      <workItem from="1574267506437" duration="63213000" />
     </task>
     <servers />
   </component>
