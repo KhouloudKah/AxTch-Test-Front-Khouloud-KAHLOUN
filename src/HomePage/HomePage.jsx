@@ -45,7 +45,8 @@ class HomePage extends Component {
 
 
                     <ShopComponent />
-                    <Row className="row p-3" px={2} py={0} >
+
+                    <Row className="row p-3" px={1} py={0} >
 
                     <OutdoorsIndoorsComponent />
                     </Row>

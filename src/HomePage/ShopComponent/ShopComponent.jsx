@@ -66,7 +66,7 @@ class ShopComponent extends Component {
         return (
 
 
-                <div className="py-5">
+                <div className="py-5 px-0">
                     <div className="view w-100">
                         <div className="row">
                             <Container>
